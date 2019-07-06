@@ -10,8 +10,8 @@ bool checked[7] = { false }; // 방문 처리를 위함
 vector<int> a[8];
 
 void dfs(int x) {
-	if (checked[x]) return;
-	checked[x] = true;
+	if (checked[x - 1]) return;
+	checked[x - 1] = true;
 	cout << x << ' ';
 	for (int i = 0; i < a[x].size(); i++) {
 		int y = a[x][i];
