@@ -27,5 +27,11 @@
     <ClCompile Include="Kruscal.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="BST traversal.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DP.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
